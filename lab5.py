@@ -28,7 +28,7 @@ try:
             return 1
         else:
             a, b = 1, 1
-            for _ in range(1, n):
+            for i in range(1, n):
                 c = a + b
                 a, b = c, a + 2 * b
             return c
